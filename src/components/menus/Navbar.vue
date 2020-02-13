@@ -1,8 +1,8 @@
 <template>
       <div id="menu" class="pl-12 pt-3 pb-3">
         <v-btn text large color="secondary">Home</v-btn>
-        <v-btn text large color="secondary">Diary</v-btn>
-        <v-btn text large color="secondary">Photo</v-btn>
+        <v-btn text large color="secondary">Resume</v-btn>
+        <v-btn text large color="secondary">Project</v-btn>
         <v-btn text large color="secondary">Comment</v-btn>
         <div id="login">
             <v-btn large outlined color="secondary">Hi,Guest</v-btn>

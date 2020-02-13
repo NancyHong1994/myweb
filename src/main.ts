@@ -12,7 +12,7 @@ const vuetifyOpts = {
       light: {
         primary: '#424242',
         secondary: '#FFFFFF',
-        homepage: '#E1BEE7'
+        keyBar: '#A1887F'
       }
     }
   }

@@ -4,6 +4,7 @@
       <Navbar id="navbar"></Navbar>
       <router-view/>
     </div>
+    <Footer id="footer"></Footer>
 </v-app>
 </template>
 
@@ -23,14 +24,26 @@
   background-color: #424242;
   opacity: 0.8;
 }
+
+#footer {
+  text-align: center;
+  background-color: #424242;
+  color: #fff;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 </style>
 
 <script lang="ts">
 import Navbar from '@/components/menus/Navbar.vue'
+import Footer from '@/components/footer.vue'
 
 export default {
   components: {
-    Navbar
+    Navbar,
+    Footer
   }
 }
 </script>

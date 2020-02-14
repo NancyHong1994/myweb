@@ -1,33 +1,33 @@
 <template>
     <div id="Project">
     <h1 class="text-center">My Project</h1>
-    <div class="pt-10">
+    <div class="pt-10 text-center">
         <div id="container" class="con pro">
-        <img
-            src="https://wallpapercave.com/wp/wp4635777.jpg"
-            id="image"
-        >
-        <div class="overlay">
-            <div class="text t-keyBar">Personal exc record</div>
-        </div>
-        </div>
-        <div id="container" class="con pro">
-        <img
-            src="https://wallpapercave.com/wp/wp4635777.jpg"
-            id="image"
-        >
-        <div class="overlay">
-            <div class="text t-keyBar">Personal exc record</div>
-        </div>
+          <img
+              src="https://wallpapercave.com/wp/wp4635777.jpg"
+              id="image"
+          >
+          <div class="overlay">
+              <div class="text t-keyBar">Project 1</div>
+          </div>
         </div>
         <div id="container" class="con pro">
-        <img
-            src="https://wallpapercave.com/wp/wp4635777.jpg"
-            id="image"
-        >
-        <div class="overlay">
-            <div class="text t-keyBar">Personal exc record</div>
+          <img
+              src="https://wallpapercave.com/wp/wp4635777.jpg"
+              id="image"
+          >
+          <div class="overlay">
+              <div class="text t-keyBar">Project2</div>
+          </div>
         </div>
+        <div id="container" class="con pro">
+          <img
+              src="https://wallpapercave.com/wp/wp4635777.jpg"
+              id="image"
+          >
+          <div class="overlay">
+              <div class="text t-keyBar">Project3</div>
+          </div>
         </div>
     </div>
     </div>
@@ -40,7 +40,8 @@
 }
 
 .pro {
-    margin-left: 80px;
+    margin-left: 90px;
+    text-align: center;
     position: relative;
     float: left;
 }

@@ -19,12 +19,10 @@
   background-color: #424242;
   opacity: 0.8;
 }
-
 #navbar:hover {
   background-color: #424242;
   opacity: 0.8;
 }
-
 #footer {
   text-align: center;
   background-color: #424242;

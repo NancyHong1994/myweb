@@ -1,17 +1,16 @@
 <template>
       <div id="menu" class="pl-12 pt-3 pb-3">
-        <v-btn text large color="secondary">Home</v-btn>
-        <v-btn text large color="secondary">Resume</v-btn>
-        <v-btn text large color="secondary">Project</v-btn>
-        <v-btn text large color="secondary">Comment</v-btn>
+        <v-btn text large color="secondary" class="button">Home</v-btn>
+        <v-btn text large color="secondary" class="button">Resume</v-btn>
+        <v-btn text large color="secondary" class="button">Project</v-btn>
+        <v-btn text large color="secondary" class="button">Comment</v-btn>
         <div id="login">
-            <v-btn large outlined color="secondary">Hi,Guest</v-btn>
+            <Login/>
         </div>
       </div>
 </template>
 
 <style lang="scss">
-
 #login {
     right: 50px;
     display: inline;
@@ -21,8 +20,13 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
+import Login from '@/components/menus/Login.vue'
 
-@Component
+@Component({
+  components: {
+    Login
+  }
+})
 export default class Narbar extends Vue {
 
 }
